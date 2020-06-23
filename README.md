@@ -8,7 +8,7 @@
 sudo apt-get install -y curl openssh-server ca-certificates
 sudo apt-get install -y postfix
 curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
-sudo EXTERNAL_URL="http://192.168.0.x/gitlab" apt-get install gitlab-ce
+sudo EXTERNAL_URL="http://192.168.0.x:9191/gitlab" apt-get install gitlab-ce
 
 # Installation gitlab-ce Ubuntu 20
 
@@ -22,4 +22,18 @@ EOF
 
 sudo apt update
 
-sudo EXTERNAL_URL="http://192.168.0.X/gitlab" apt-get install gitlab-ce
+sudo EXTERNAL_URL="http://192.168.0.X:9191/gitlab" apt-get install gitlab-ce
+
+sudo nano /etc/gitlab/gitlab.rb
+
+sudo gitlab-ctl reconfigure
+
+# Installation Bugzilla
+
+
+# Installation Sonarqube
+
+# Installation jenkins.io
+Fuente:
+https://www.jenkins.io/doc/book/installing/#debianubuntu
+
