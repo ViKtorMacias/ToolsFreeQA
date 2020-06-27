@@ -60,3 +60,26 @@ https://www.castsoftware.com
 
 
 # Selenium con Python
+apt install python3.8
+apt install python3-pip
+
+pip3 install selenium
+pip3 install pyunitreport
+
+
+monotoriar
+https://haydenjames.io/20-top-server-monitoring-application-performance-monitoring-apm-solutions/
+
+https://grafana.com/
+sudo apt-get install -y adduser libfontconfig1
+wget https://dl.grafana.com/oss/release/grafana_7.0.4_amd64.deb
+sudo dpkg -i grafana_7.0.4_amd64.deb
+
+otra forma
+wget https://dl.grafana.com/oss/release/grafana-7.0.4.linux-amd64.tar.gz
+tar -zxvf grafana-7.0.4.linux-amd64.tar.gz
+/grafana-7.0.4/bin$ ./grafana-server 
+
+
+
+https://logging.apache.org/log4net/release/config-examples.html
