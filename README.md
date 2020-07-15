@@ -7,8 +7,11 @@
 # Installation gitlab-ce Ubuntu 18 
 sudo apt-get install -y curl openssh-server ca-certificates
 sudo apt-get install -y postfix
-curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
-sudo EXTERNAL_URL="http://192.168.0.x:9191/gitlab" apt-get install gitlab-ce
+curl -s https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+sudo EXTERNAL_URL="http://192.168.4.194" apt-get install gitlab-ce
+fuente
+https://packages.gitlab.com/gitlab/gitlab-ce/install
+https://packages.gitlab.com/gitlab/gitlab-ce/
 
 # Installation gitlab-ce Ubuntu 20
 
@@ -46,6 +49,11 @@ sudo apt install apache2 -y
 sudo systemctl status apache2
 https://www.howtoforge.com/how-to-install-and-configure-mantis-bug-tracker-on-ubuntu/
 
+
+https://www.osradar.com/install-mantis-bug-tracker-ubuntu-20-04/
+https://www.osradar.com/install-lamp-ubuntu-20-04/
+
+
 # Installation elasticsearch
 sudo apt-get install openjdk-8-jre
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add 
@@ -66,6 +74,9 @@ apt install python3-pip
 pip3 install selenium
 pip3 install pyunitreport
 
+chromedriver
+https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/
+
 
 monotoriar
 https://haydenjames.io/20-top-server-monitoring-application-performance-monitoring-apm-solutions/
@@ -83,3 +94,4 @@ tar -zxvf grafana-7.0.4.linux-amd64.tar.gz
 
 
 https://logging.apache.org/log4net/release/config-examples.html
+https://stackify.com/retrace-error-monitoring/
