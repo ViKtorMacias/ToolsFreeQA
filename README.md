@@ -8,7 +8,7 @@
 sudo apt-get install -y curl openssh-server ca-certificates
 sudo apt-get install -y postfix
 curl -s https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
-sudo EXTERNAL_URL="http://192.168.4.194" apt-get install gitlab-ce
+sudo EXTERNAL_URL="http://192.168.0.3" apt-get install gitlab-ce
 fuente
 https://packages.gitlab.com/gitlab/gitlab-ce/install
 https://packages.gitlab.com/gitlab/gitlab-ce/
@@ -65,7 +65,8 @@ echo "deb https://artifacts.elastic.co/packages/7.8/apt stable main" | sudo tee 
 links
 
 https://www.castsoftware.com
-
+#Automated All-in-One OS command injection and exploitation tool. 
+https://commixproject.com/
 
 # Selenium con Python
 apt install python3.8
