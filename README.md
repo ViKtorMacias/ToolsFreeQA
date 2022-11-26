@@ -30,7 +30,7 @@ sudo EXTERNAL_URL="http://192.168.0.X:9191/gitlab" apt-get install gitlab-ce
 sudo nano /etc/gitlab/gitlab.rb
 
 sudo gitlab-ctl reconfigure
-
+sudo gitlab-rake “gitlab:password:reset”
 # Installation Bugzilla
 
 
