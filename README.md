@@ -1,5 +1,38 @@
 Instalación de Herramientas de Desarrollo y Pruebas en Ubuntu
+Descripción del Script
 
+    GitLab CE:
+    Instala GitLab Community Edition, un servidor Git autoalojado.
+
+    Bugzilla:
+    Instala Bugzilla, una herramienta de gestión de errores y seguimiento de problemas.
+
+    SonarQube:
+    SonarQube se utiliza para análisis de código y calidad.
+
+    Jenkins:
+    Jenkins se utiliza para integración continua y entrega continua (CI/CD).
+
+    MantisBT:
+    Mantis Bug Tracker para gestionar problemas y errores.
+
+    Elasticsearch:
+    Elasticsearch es un motor de búsqueda y análisis basado en Lucene.
+
+    Selenium con Python:
+    Selenium es una herramienta de automatización para pruebas de navegadores web.
+
+    Grafana:
+    Grafana se utiliza para visualizar métricas y datos de diferentes fuentes.
+
+    Docker:
+    Docker facilita la creación y el despliegue de contenedores.
+
+    Newman (Postman CLI):
+    Ejecución de colecciones de Postman desde la línea de comandos.
+
+    Gatling:
+    Herramienta para realizar pruebas de carga.
 Este repositorio contiene un script de instalación que automatiza la configuración de un entorno de desarrollo y pruebas en Ubuntu. El script instala varias herramientas libres y populares como GitLab CE, Bugzilla, SonarQube, Jenkins, MantisBT, Elasticsearch, Selenium con Python, Grafana, Docker, Newman (Postman CLI), y Gatling.
 Herramientas Incluidas
 
